@@ -1,0 +1,45 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --red: rgb(207, 18, 18);
+    --blue: rgb(18, 18, 228);
+    --green: rgb(26, 148, 26);
+}
+
+.body {
+    background-color: var(--black);
+    color: var(--white);
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header > .header__wrapper {
+    padding: 0 calc(50% - 600px);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > .main__wrapper {
+    padding: 0 calc(50% - 600px);
+}
+
+.footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .footer__wrapper {
+    padding: 0 calc(50% - 600px);
+}
