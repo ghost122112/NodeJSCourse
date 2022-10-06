@@ -4,18 +4,26 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/main.css">
         <title class="title">Node_Js_Course</title>
     </head>
     <body class="body" id="b">
-        <header class="header">
+        <header class="header" id="h">
             <div class="header__wrapper"></div>
         </header>
-        <main class="main">
-            <div class="main__wrapper"></div>
+        <main class="main" id="m">
+            <div class="main__wrapper">
+                <div class="main__wrapper--timer-block">
+                    <h1 class="main__wrapper--timer-block--timer-itself" id="timer"></h1>
+                </div>
+                <div class="main__wrapper--info-block">
+                    <p class="main__wrapper--info-block--content" id="obj_data"></p>
+                </div>
+            </div>
         </main>
-        <footer class="footer">
+        <footer class="footer" id="f">
             <div class="footer__wrapper"></div>
         </footer>
+        <script src="scripts/main.js" defer="true"></script>
     </body>
 </html>

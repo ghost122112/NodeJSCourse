@@ -7,6 +7,8 @@
 }
 
 .body {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal; 
     background-color: var(--black);
     color: var(--white);
     margin: 0;
@@ -31,6 +33,18 @@
 
 .main > .main__wrapper {
     padding: 0 calc(50% - 600px);
+}
+
+.main > .main__wrapper > div {
+    width: 86px;
+    height: 27px;
+    position: relative;
+    left: 400px;
+    top: 0px;
+}
+
+.main > .main__wrapper > div > h1 {
+    font-size: medium;
 }
 
 .footer {
